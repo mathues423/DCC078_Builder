@@ -1,22 +1,21 @@
-public class site_compra {
-    public class site_compra {
+public class Site_compra {
         //Dados
         String name;
         String mid_name;
         String last_name;
-        int cpf;
+        String cpf;
         String bairo;
         String rua;
         String complemento;
         int numero;
-        int cep;
+        String cep;
 
         //Contato
         String email;
         int cel;
 
-        public site_compra(){
-
+        public Site_compra(){
+            this.name = "";
         }
 
         public String getName() {
@@ -43,11 +42,11 @@ public class site_compra {
             this.last_name = last_name;
         }
 
-        public int getCpf() {
+        public String getCpf() {
             return cpf;
         }
 
-        public void setCpf(int cpf) {
+        public void setCpf(String cpf) {
             this.cpf = cpf;
         }
 
@@ -83,11 +82,11 @@ public class site_compra {
             this.numero = numero;
         }
 
-        public int getCep() {
+        public String getCep() {
             return cep;
         }
 
-        public void setCep(int cep) {
+        public void setCep(String cep) {
             this.cep = cep;
         }
 
@@ -106,5 +105,4 @@ public class site_compra {
         public void setCel(int cel) {
             this.cel = cel;
         }
-    }
 }
